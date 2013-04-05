@@ -20,7 +20,7 @@ $(call inherit-product, vendor/google/minimal.mk)
 # $(call inherit-product, vendor/google/products/tts_support.mk)
 $(call inherit-product, vendor/google/products/maps_support.mk)
 $(call inherit-product, vendor/google/products/music_support.mk)
-#$(call inherit-product, vendor/google/products/facelock_support.mk)
+$(call inherit-product, vendor/google/products/facelock_support.mk)
 $(call inherit-product, vendor/google/products/youtube_support.mk)
 
 # Addons personal (call files from vendor/osr/prebuilt/app)
